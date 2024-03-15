@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    text-align: center;
+}
+.logo-img{
+    height: 150px;
+}
+.button {
+    font-size: 24px;
+    font-weight: bold;
+    border-width: 3px;
+}
+
+.home-page-buttons {
+    margin-top: -50vh;
+}
+
+.bg-nav {
+    background-image: linear-gradient(white, skyblue);
+}
+
+.package-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.india-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://img.freepik.com/premium-photo/passengersairplaneflyingabovegatewayofindiaduringsunrise_271231-1.jpg?size=626&ext=jpg&ga=GA1.1.1016570294.1637332323&semt=ais');
+    background-size: cover;
+
+}
+
+.foreign-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://img.freepik.com/free-photo/beautiful-wide-shot-eiffel-tower-paris-surrounded-by-water-with-ships-colorful-sky_181624-5118.jpg?t=st=1710483360~exp=1710486960~hmac=5f65a88696ab345e9f3ff066cac9a6c3490f06a67ecc4e2dc7b46dd5cd8a4595&w=900');
+    background-size: cover;
+}
+
+.wild-life-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://img.freepik.com/free-photo/elephants-drinking-water_181624-5984.jpg?t=st=1710483715~exp=1710487315~hmac=41899a1fbf01baebe21a46730a75ffafc96dda4b909f488f8ac9f8919de023c8&w=900');
+    background-size: cover;
+}
+
+.honeymoon-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://img.freepik.com/free-photo/couple-tourists-with-photography-mountain_1150-7518.jpg?t=st=1710483864~exp=1710487464~hmac=2995824386bfaaa4f6cab323697ddfc84b7bb583bb8dbef09027fd981bef8267&w=900');
+    background-size: cover;
+}
+
+.educational-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://img.freepik.com/free-photo/boys-with-bags-girls-look-touristic-map-standing-somewhere-old-city_8353-1632.jpg?t=st=1710484002~exp=1710487602~hmac=52ce163f93695c170de73955266c03f5064433cb39961c0a8c1d08a51a8c54b3&w=900');
+    background-size: cover;
+}
+
+.package-text-card {
+    color: white;
+}
+
+.contact-us-section {
+    background-image: url('https://img.freepik.com/premium-vector/high-resolution-white-map-world_601298-14159.jpg?w=900');
+    background-size: cover;
+    border: 2px solid skyblue;
+    border-radius: 5%;
+}
+
+.contact-us-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.conact-heading {
+    font-weight: bold;
+    color: #144a87;
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+.section-heading {
+    text-align: left;
+    color: #144a87;
+    font-family: "Roboto";
+    font-size: 36px;
+}
+
+.phone-icon {
+    color: skyblue;
+    font-size: 36px;
+    margin: 5px;
+}
+
+.phone-no {
+    font-size: 24px;
+    margin: 5px;
+}
+
+.social-media-icon {
+    border: 1px solid skyblue;
+    margin: 5px;
+    height: 50px;
+    width: 45px;
+    border-radius: 20px;
+}
+
+.social-icon {
+    color: #0090c4;
+    font-size: 24px;
+}
+
+.car-img {
+    height: 90vh;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search-icon {
+    font-size: 24px;
+}
+
+.flight-content-heads {
+    color: grey;
+    font-size: 16px;
+    align-self: start;
+}
+
+.flight-contents {
+    color: black;
+    font-size: 24px;
+}
+
+.flight-subcard {
+    width: 25%;
+    border: 1px solid skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flight-card {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+
+.hotel-img {
+    height: 150px;
+    width: 150px;
+}
+
+.hotel-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.duration {
+    background-color: yellow;
+    color: navy;
+    font-size: 18px;
+}
+
+.hotel-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.book-now {
+    color: blue;
+    font-size: 14px;
+}
+
+.hotels-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
